@@ -696,3 +696,51 @@ stroke: #2E2F42;
  .modal-form-message::placeholder {
     color: ;
  }
+ /* custom checkbox */
+ input[type='checkbox']:checked + 
+ .modal-form-agreement-text 
+ .modal-form-checkbox {
+    background-color: #404bbf;;
+    border-color: #404bbf;;
+ }
+ .modal-form-agreement {
+
+ }
+ .modal-form-agreement-text {
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+ }
+ .modal-form-checkbox {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    margin-right: 8px;
+    cursor: pointer;
+    transition: 300ms, ease-in;
+    transition-property: background-color, border-color;
+ }
+ .modal-form-checkbox-icon {
+opacity: 0;
+transition: 300ms, ease-in;
+transition-property: opacity;
+ }
+ input[type='checkbox']:checked + 
+ .modal-form-agreement-text 
+ .modal-form-checkbox
+ .modal-form-checkbox-icon {
+    opacity: 1;
+ }
+ .modal-form-agreement-link  {
+    line-height: 1.33;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4d5ae5;
+ }
