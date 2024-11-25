@@ -794,7 +794,7 @@ margin-bottom: 24px;
  .modal-form-checkbox-icon {
 
  }
- input[type="checkbox"]:checked + label > span {
+ input[type="checkbox"]:checked + .modal-form-agreement-text > .modal-form-checkbox {
      background-color: #404bbf;
      border: none;
      fill: #F4F4FD;
